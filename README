@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=939
+
+A scipt that interfaces with SCCS to view differences between revisions. It is not as complete as sccs-menu.vim vimscript #43, but it adds the benefit of visually selection of delta's, no need to remember relevant version numbers.
+
+Summary of it's use:
+,s Compares the current file with the last stored revision
+,S Compares current file with visually selectable revision
+,R Compares two visually selectable revisions
